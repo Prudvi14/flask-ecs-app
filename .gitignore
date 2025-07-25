@@ -1,1 +1,18 @@
+# Terraform
 .terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+*.pid
+
+# Jenkins
+workspace/
+
+# OS files
+.DS_Store
